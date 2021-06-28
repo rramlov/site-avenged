@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenged Sevenfold</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://uploaddeimagens.com.br/images/003/308/621/full/84fa2a2322868026f83801fa5ed42b4e.png?1624827548">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #212529;
+    } 
+
+    .banda {
+        text-align: justify;
+        width: 50%;
+        float: left;
+        }
+
+    h1 {
+        color: rgb(0, 217, 255);
+        text-align: center;
+    }
+
+    h5 {
+        color: white;
+        line-height: 28px;
+    }
+
+    .fotobanda {
+        float: right;
+        width: 45%;
+        padding-bottom: 50px;
+    }
+
+    .albuns {
+        float: left;
+        background-color: white;
+        width: 100%;
+    }
+
+    .divisao-album {
+        padding-bottom: 20px;
+    }
+
+    h6 {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .integrantes {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .integrantes-direita{
+        float: left;
+        width: 49%;
+    }
+
+    .integrantes-esquerda{
+        float: right;
+        width: 49%;
+    }
+
+    .divisao-integrantes{
+        padding-bottom: 10px;
+    }
+
+    .rodape {
+        background-color: white;
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 5px;
+        padding-top: 25px;
+        color: #212529;
+    }
+
+    a {
+         text-decoration: none;
+         color: rgb(0, 217, 255);
+    }
+
+</style>
+
+<body>
+    
+    <!--menu-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/215697c1-f019-46c9-9268-869c8726107c/d5klaeb-ae3c4759-e328-4093-95f5-2b9978ec69e9.png/v1/fill/w_1280,h_513,strp/avenged_sevenfold___logo__1__png__deathbat_by_lightsinaugust_d5klaeb-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEzIiwicGF0aCI6IlwvZlwvMjE1Njk3YzEtZjAxOS00NmM5LTkyNjgtODY5Yzg3MjYxMDdjXC9kNWtsYWViLWFlM2M0NzU5LWUzMjgtNDA5My05NWY1LTJiOTk3OGVjNjllOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.lQl5EalM-0o7p4xnZLQIir3jZ5Y2dnVa7QdwFelNTrc" 
+            alt="Avenged Sevenfold Logo" width="65" height="24"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#banda">A banda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#albuns">Álbuns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#integrantes">Integrantes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--fotinhos-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://uploaddeimagens.com.br/images/003/308/605/full/foto1.png?1624826685" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://uploaddeimagens.com.br/images/003/308/606/full/foto2.png?1624826695" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="https://uploaddeimagens.com.br/images/003/308/607/full/foto3.png?1624826698"
+                    class="d-block w-100" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--banda-->
+    <div class="container mt-5 mb-5" id="banda">
+        <div class="banda">
+            <h1><b>Avenged Sevenfold</b></h1>
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;Avenged Sevenfold, também conhecida como A7X, é uma banda norte-americana de heavy metal de Huntington Beach, Califórnia. 
+                Formada em 1999, a banda é formada pelo vocalista M. Shadows, os guitarristas Zacky Vengeance e Synyster Gates, o baixista 
+                Johnny Christ e o baterista Brooks Wackerman. 
+                <br/>
+                &ensp;&nbsp;&nbsp;&nbsp;&nbsp;A banda começou tocando metalcore em seus dois primeiros álbuns, mas após 
+                alguns anos mudou seu estilo musical, sendo hoje considerada um dos maiores nomes do heavy metal na década. </h3>
+        </div>
+        <div class="fotobanda">
+            <img src="https://avengedsevenfold.com/app/uploads/2018/01/DV56At8U0AApeWl.jpg" width="90%">
+        </div>
+    </div>
+ </body>
+ <body>
+    <!--albuns-->
+        <div class="albuns">
+        <div class="container mt-5 mb-5" id="albuns">
+        <h1><b>Álbuns</b></h1>
+        <div class="divisao-album"></div>
+        
+        <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81q99sj7ACL._AC_SL1429_.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Sounding The Seventh <br/> Trumpet - 2001</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_937110-MLB31532740202_072019-O.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Walking The Fallen -<br/> 2003</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://a-static.mlcdn.com.br/618x463/cd-avenged-sevenfold-city-of-evil-warner-music/kantodoartistamusicaimagem/11424645997/b62b268715227998a72ccd923cd8fbaf.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">City of Evil - <br/>2005</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="http://2.bp.blogspot.com/_GzYBEF3pJO0/RxzctefeDiI/AAAAAAAAAaU/NIQu9y6APMI/s320/1192802824_av-300x300.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Avenged Sevenfold - <br/>2007</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="divisao-album"></div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81D5il1PpPL._AC_SL1425_.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Nightmare - <br/>2010</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81EbPydBuVL._AC_SL1425_.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Hail to the <br/>king - 2013</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://hmrock.com.br/wp-content/uploads/2016/11/TheStage.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">The stage - <br/>2016</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71nahrIsh3L._AC_SL1200_.jpg"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">The Stage <br/>Deluxe - 2007</h6>
+                </div>
+            </div>
+        </div>
+    
+        </div> </div> </div>
+
+    <!--integrantes-->
+        <div class="integrantes">
+        <div class="container mt-5 mb-5" id="integrantes">
+           <h1><b>Integrantes</b></h1> 
+           <div class="divisao-album"></div>
+
+           <div class="row">
+           <div class="integrantes-direita">
+           <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://avengedsevenfold.com/app/uploads/2018/01/26910155_10154967072190583_6081577800734054018_o.jpg" height="100px" class="img-fluid rounded-start" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"> <b> M. Shadows </b> </h5>
+                  <p class="card-text">Matthew Charles Sanders, mais conhecido por seu nome artístico M. Shadows, é o vocalista e fundador da banda.</p>
+                </div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="integrantes-esquerda">
+            <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="https://avengedsevenfold.com/app/uploads/2018/01/26841339_10154967072135583_9212178039271914956_o-750x500.jpg" height="100px" class="img-fluid rounded-start" alt="">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title"> <b> Synyster Gates </b> </h5>
+                   <p class="card-text">Brian Elwin Haner Jr, mais conhecido por seu nome artístico Synyster Gates, é o guitarrista solo da banda.</p>
+                 </div></div>
+               </div>
+             </div>
+           </div>
+
+           <div class="divisao-integrantes"></div>
+
+           <div class="integrantes-direita">
+            <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="https://avengedsevenfold.com/app/uploads/2018/01/26910997_10154967072140583_7866044912378176437_o-750x501.jpg" height="100px" class="img-fluid rounded-start" alt="">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title"> <b> Johnny Christ </b> </h5>
+                   <p class="card-text">Jonathan Lewis Seward, mais conhecido por seu nome artístico Johnny Christ, é o baixista da banda.</p>
+                 </div></div>
+               </div>
+             </div>
+           </div>
+
+           <div class="integrantes-esquerda">
+            <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="https://avengedsevenfold.com/app/uploads/2018/01/26910115_10154967072145583_5967537638397667414_o-750x501.jpg" height="100px" class="img-fluid rounded-start" alt="">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title"> <b> Zacky Vengeance </b> </h5>
+                   <p class="card-text">Zachary James Baker, mais conhecido por seu nome artístico Zacky Vengeance, é o guitarrista base da banda.</p>
+                 </div></div>
+               </div>
+             </div>
+           </div>
+           
+           <div class="divisao-integrantes"></div>
+
+           <div class="integrantes-direita">
+            <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="https://uploaddeimagens.com.br/images/003/311/062/full/brooks2.png?1624922380" height="100px" class="img-fluid rounded-start" alt="">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title"> <b> Brooks Wackerman </b> </h5>
+                   <p class="card-text">Brooks Wackerman é o bateirista e mais novo membro da banda, tendo ingressado na mesma em 2015.</p>
+                 </div></div>
+               </div>
+             </div>
+           </div>
+
+           <div class="integrantes-esquerda">
+            <div class="card border-light text-white bg-dark mb-3" style="max-width: 100%;">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="https://uploaddeimagens.com.br/images/003/311/057/full/rev2.png?1624922294" height="100px" class="img-fluid rounded-start" alt="">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title"> <b> The Rev </b> </h5>
+                   <p class="card-text">James Owen Sullivan, mais conhecido como The Rev, é o ex-baterista e backing vocal da banda. † 2009 † </p>
+                 </div></div>
+               </div>
+             </div>
+           </div>
+ 
+    </div> </div> </div>
+
+    <!--rodapé-->
+    <div class="rodape">
+        <p>Site criado por <a href="https://www.behance.net/rramlov"><b>Renata Ramlov</b></a></p>
+    </div>
+
+
+</body>
+</html>
